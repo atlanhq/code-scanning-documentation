@@ -18,6 +18,7 @@ on:
   # every day at a particular period of time on the main branch
   # to identify and catch any vulnerability identified.
   schedule:
+      # Running the code scanning every midnight at UTC time.
       - cron: '0 0 * * *'
 
 jobs:
