@@ -10,9 +10,10 @@
 # supported CodeQL languages.
 #
 name: "CodeQL"
+
 on: 
-    pull_request:
-    schedule:
+  pull_request:
+  schedule:
       - cron: '0 0 * * *'
 
 jobs:
@@ -27,7 +28,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'javascript', 'python' ]
+        language: ['python', 'javascript']
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python', 'ruby' ]
         # Learn more about CodeQL language support at https://aka.ms/codeql-docs/language-support
 
