@@ -20,11 +20,11 @@ For understanding it more better, you can refer the following repository [codeql
 a short walkthrough.
 
 Also, to get information in more detail about configuring code scanning with CodeQL, 
-you can refer the official documentation from [github](https://docs.github.com/en/enterprise-server@3.3/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning)
+you can refer the official documentation from [github](https://docs.github.com/en/enterprise-server@3.3/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning).
 
-To check how to configure the CodeQL Workflow for the compiled languages, check the following [link](https://docs.github.com/en/enterprise-server@3.3/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-the-codeql-workflow-for-compiled-languages)
+To check how to configure the CodeQL Workflow for the compiled languages, check the following [link](https://docs.github.com/en/enterprise-server@3.3/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-the-codeql-workflow-for-compiled-languages).
 
-To check how to configure the CodeQL Workflow for the containers and run the CodeQL scanning in the container, do check the following [link](https://docs.github.com/en/enterprise-server@3.3/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/running-codeql-code-scanning-in-a-container)
+To check how to configure the CodeQL Workflow for the containers and run the CodeQL scanning in the container, do check the following [link](https://docs.github.com/en/enterprise-server@3.3/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/running-codeql-code-scanning-in-a-container).
 
 ## Troubleshooting
 
