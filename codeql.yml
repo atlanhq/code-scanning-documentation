@@ -11,8 +11,12 @@
 #
 name: "CodeQL"
 
-on: 
+on:
+  #For Scanning every pull request for the Vulnerabilities.
   pull_request:
+  # It will schedule to run the cron job to run the code scanning
+  # every day at a particular period of time on the main branch
+  # to identify and catch any vulnerability identified.
   schedule:
       - cron: '0 0 * * *'
 
@@ -27,8 +31,9 @@ jobs:
 
     strategy:
       fail-fast: false
+      # Uncomment the language part and put the language available in your repository.
       matrix:
-        language: ['python', 'javascript']
+        #language: ['python', 'javascript']
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python', 'ruby' ]
         # Learn more about CodeQL language support at https://aka.ms/codeql-docs/language-support
 
